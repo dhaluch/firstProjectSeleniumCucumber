@@ -27,6 +27,6 @@ public class RunCucumberTest {
     }
     @BeforeClass
     public static void stop(){
-
+        driver.quit();
     }
 }
